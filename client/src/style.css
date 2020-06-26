@@ -76,3 +76,23 @@ select {
     scroll-behavior: auto !important;
   }
 }
+html {
+  background-color: #fff;
+  color: #555;
+  font-family: "Lato", "Arial", sans-serif;
+  font-size: 62.5%;
+  font-weight: 300;
+  text-rendering: optimizeLegibility; /* this is make  our fonts runs in perfect way */
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.6rem;
+}
+button {
+  font-size: 1.8rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
