@@ -1,10 +1,118 @@
 import React from "react";
 import styled from "styled-components";
 import img1 from "./imgs/r.jpg";
+const FoodImages = () => {
+  return (
+    <Section>
+      <div>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+        <img src={img1}/>
+      </div>
+      <div>
+        <img src={img1}/>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+        <img src={img1}/>
+      </div>
+      <div>
+        <img src={img1}/>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+        <img src={img1}/>
+      </div>
+      <div>
+        <img src={img1}/>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+      </div>
+      <div>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+        <img src={img1}/>
+      </div>
+      <div>
+        <img src={img1}/>
+        <ul>
+            <h3>gggggg</h3>
+            <li>gg</li>
+            <li>hhh</li>
+            <li>ljhli</li>
+            <li>kk</li>
+        </ul>
+      </div>
+    </Section>
+  );
+};
+
+export default FoodImages;
+
+const Section = styled.section`
+  padding: 60px 0;
+  width: 70%;
+  margin: 0 auto;
+  div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    ul {
+        width:40%;
+    };
+    img {
+        width:40%;
+        border-radius:20px;
+    }
+  }
+`;
+
 const Ul = styled.ul`
   width: 100%;
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
   li {
     width: 20%;
     margin: 1%;
@@ -28,39 +136,28 @@ const Ul = styled.ul`
     }
   }
 `;
-const FoodImages = () => {
-  return (
-    <div>
-      <Ul>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-      </Ul>
-      <Ul>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-        <li>
-          <img src={img1} />
-        </li>
-      </Ul>
-    </div>
-  );
-};
 
-export default FoodImages;
+/*
+      <div>
+        <ul>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            facere aliquid deserunt, maxime voluptates aliquam aperiam natus
+            voluptas labore laboriosam fugit quos fugiat explicabo possimus
+            incidunt eveniet. Dicta, autem ullam.
+          </li>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            facere aliquid deserunt, maxime voluptates aliquam aperiam natus
+            voluptas labore laboriosam fugit quos fugiat explicabo possimus
+            incidunt eveniet. Dicta, autem ullam.
+          </li>
+          <li>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis
+            facere aliquid deserunt, maxime voluptates aliquam aperiam natus
+            voluptas labore laboriosam fugit quos fugiat explicabo possimus
+            incidunt eveniet. Dicta, autem ullam.
+          </li>
+        </ul>
+      </div>
+*/

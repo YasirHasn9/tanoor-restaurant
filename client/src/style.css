@@ -96,3 +96,8 @@ button {
   text-transform: capitalize;
   cursor: pointer;
 }
+
+
+section{
+  padding: 60px auto;
+}
